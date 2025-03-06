@@ -66,6 +66,25 @@
             margin-top: 30px;
             border-radius: 10px;
         }
+
+        /* Estilo para o botão */
+        .styled-button {
+            display: block;
+            width: 250px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #00bfff;
+            color: #fff;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .styled-button:hover {
+            background-color: #009acd;
+        }
     </style>
 </head>
 <body>
@@ -84,6 +103,9 @@
 
         <h4>Contato</h4>
         <p>Você pode me contatar através do e-mail: <a href="mailto:perigop038@gmail.com">perigop038@gmail.com</a></p>
+
+        <!-- Botão Estilizado -->
+        <a href="https://aluno.sereduc.com/" class="styled-button">Acessar Página</a>
 
         <!-- Espaço para mais conteúdo -->
         <div class="tech-space">
