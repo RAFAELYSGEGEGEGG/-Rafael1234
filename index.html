@@ -105,7 +105,7 @@
         <p>Você pode me contatar através do e-mail: <a href="mailto:perigop038@gmail.com">perigop038@gmail.com</a></p>
 
         <!-- Botão Estilizado -->
-        <a href="https://aluno.sereduc.com/" class="styled-button">Acessar Página</a>
+        <a href="https://aluno.sereduc.com/" class="styled-button" target="_blank">Acessar Página</a>
 
         <!-- Espaço para mais conteúdo -->
         <div class="tech-space">
