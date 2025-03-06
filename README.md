@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Bem-vindo ao @Rafael1234!</h1>
-    <p>Este é o seu site.</p>
+    <p><strong>Este site é para pegar scripts.</strong></p>
 
     <h2>Sobre</h2>
     <p>Este site foi criado para mostrar meus projetos e scripts.</p>
@@ -21,7 +21,9 @@
     <h4>Contato</h4>
     <p>Você pode me contatar através do e-mail: <a href="mailto:rafael@example.com">rafael@example.com</a></p>
 
-    <!-- Botão Clicável -->
-    <button onclick="window.location.href='https://aluno.sereduc.com/'">Clique Aqui</button>
+    <!-- Espaço para mais conteúdo -->
+    <div style="height: 500px;">
+        <p>Adicione mais conteúdo aqui conforme necessário.</p>
+    </div>
 </body>
 </html>
