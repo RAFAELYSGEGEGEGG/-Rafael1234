@@ -34,23 +34,6 @@
             text-decoration: none;
         }
 
-        .button {
-            display: block;
-            width: 200px;
-            margin: 20px auto;
-            padding: 15px;
-            background-color: #00bfff;
-            color: #fff;
-            text-align: center;
-            border-radius: 10px;
-            font-size: 18px;
-            transition: background-color 0.3s ease;
-        }
-
-        .button:hover {
-            background-color: #009acd;
-        }
-
         .container {
             width: 80%;
             margin: auto;
@@ -101,9 +84,6 @@
 
         <h4>Contato</h4>
         <p>Você pode me contatar através do e-mail: <a href="mailto:perigop038@gmail.com">perigop038@gmail.com</a></p>
-
-        <!-- Botão -->
-        <a href="https://aluno.sereduc.com/" class="button">Acessar Página</a>
 
         <!-- Espaço para mais conteúdo -->
         <div class="tech-space">
