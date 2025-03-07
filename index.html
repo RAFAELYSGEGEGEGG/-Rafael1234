@@ -3,118 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@Rafael1234</title>
+    <title>Download Subway Surfers</title>
     <style>
+        /* Estilização tecnológica */
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(45deg, #1f1f1f, #333333);
-            color: #ffffff;
+            background: #0a0a0a;
+            color: #00ffcc;
+            text-align: center;
             margin: 0;
             padding: 0;
         }
-        
-        h1, h2, h3, h4 {
-            text-align: center;
-            color: #00bfff;
-            text-shadow: 2px 2px 5px rgba(0, 191, 255, 0.5);
-        }
-        
-        h1 {
-            font-size: 48px;
-        }
-        
-        p {
-            font-size: 18px;
-            text-align: center;
-            margin: 20px;
-        }
-
-        a {
-            color: #00bfff;
-            text-decoration: none;
-        }
 
         .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             width: 80%;
-            margin: auto;
+            max-width: 400px;
+            background: rgba(0, 0, 0, 0.8);
             padding: 20px;
-        }
-
-        .project-list {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-            padding: 0;
-        }
-
-        .project-list li {
-            margin: 0 20px;
-            font-size: 20px;
-            text-align: center;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 50px;
-            font-size: 16px;
-            color: #888;
-        }
-
-        .tech-space {
-            height: 500px;
-            background: rgba(0, 191, 255, 0.1);
-            margin-top: 30px;
             border-radius: 10px;
+            box-shadow: 0 0 20px #00ffcc;
         }
 
-        /* Estilo para o botão */
-        .styled-button {
-            display: block;
-            width: 250px;
-            margin: 20px auto;
-            padding: 15px;
-            background-color: #00bfff;
-            color: #fff;
-            text-align: center;
-            border-radius: 10px;
+        h1 {
+            font-size: 26px;
+            text-transform: uppercase;
+        }
+
+        #contador {
+            font-size: 50px;
+            font-weight: bold;
+            margin: 20px 0;
+            animation: glow 1s infinite alternate;
+        }
+
+        @keyframes glow {
+            0% { text-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc; }
+            100% { text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc; }
+        }
+
+        #downloadBtn {
+            display: none;
+            padding: 15px 20px;
             font-size: 18px;
-            transition: background-color 0.3s ease;
-            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(45deg, #00ffcc, #0066ff);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
         }
 
-        .styled-button:hover {
-            background-color: #009acd;
+        #downloadBtn:hover {
+            background: linear-gradient(45deg, #0066ff, #00ffcc);
+            box-shadow: 0 0 15px #00ffcc;
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>Bem-vindo ao @Rafael1234!</h1>
-        <p><strong>Este site é para pegar scripts.</strong></p>
-
-        <h2>Sobre</h2>
-        <p>Este site foi criado para mostrar meus projetos e scripts.</p>
-
-        <h3>Projetos Recentes</h3>
-        <ul class="project-list">
-            <li>Projeto 1: Script para o jogo X</li>
-            <li>Projeto 2: Ferramenta para automação Y</li>
-        </ul>
-
-        <h4>Contato</h4>
-        <p>Você pode me contatar através do e-mail: <a href="mailto:perigop038@gmail.com">perigop038@gmail.com</a></p>
-
-        <!-- Botão Estilizado -->
-        <a href="https://aluno.sereduc.com/" class="styled-button" target="_blank">Acessar Página</a>
-
-        <!-- Espaço para mais conteúdo -->
-        <div class="tech-space">
-            <p style="text-align:center; padding-top: 20px;">Adicione mais conteúdo aqui conforme necessário.</p>
-        </div>
+        <h1>Download Subway Surfers</h1>
+        <div id="contador">10</div>
+        <button id="downloadBtn" onclick="baixarAPK()">Baixar Subway Surfers</button>
     </div>
 
-    <div class="footer">
-        <p>&copy; 2025 @Rafael1234 - Todos os direitos reservados</p>
-    </div>
+    <script>
+        let tempo = 10;
+        let contador = document.getElementById("contador");
+        let botao = document.getElementById("downloadBtn");
+
+        let intervalo = setInterval(() => {
+            tempo--;
+            contador.innerText = tempo;
+
+            if (tempo === 0) {
+                clearInterval(intervalo);
+                contador.style.display = "none";
+                botao.style.display = "block";
+            }
+        }, 1000);
+
+        function baixarAPK() {
+            window.location.href = "https://rafaelysgegegegg.github.io/Oi/"; // Link de download do Subway Surfers
+        }
+
+        // Função para redirecionar ao clicar no botão
+        function redirecionar() {
+            window.location.href = "https://rafaelysgegegegg.github.io/Baixar_apk/"; // Novo link ao clicar
+        }
+    </script>
+
 </body>
 </html>
