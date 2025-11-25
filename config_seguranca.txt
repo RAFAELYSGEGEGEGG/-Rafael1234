@@ -1,0 +1,4 @@
+# Configurações de segurança sugeridas
+- Mantenha token com escopo mínimo.
+- Revogue token se necessário.
+- Verifique commits antes de aceitar alterações.
